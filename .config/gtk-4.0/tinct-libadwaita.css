@@ -4,70 +4,70 @@
 
 :root {
   /* Window colors */
-  --window-bg-color: #131020;
-  --window-fg-color: #f5e0dc;
+  --window-bg-color: #151520;
+  --window-fg-color: #404b65;
 
   /* View colors */
-  --view-bg-color: #131020;
-  --view-fg-color: #f5e0dc;
+  --view-bg-color: #151520;
+  --view-fg-color: #404b65;
 
   /* Header bar colors */
-  --headerbar-bg-color: #1f1b33;
-  --headerbar-fg-color: #f5e0dc;
-  --headerbar-border-color: #65607b;
-  --headerbar-backdrop-color: #1f1b33;
+  --headerbar-bg-color: #212131;
+  --headerbar-fg-color: #a8b2c8;
+  --headerbar-border-color: #676779;
+  --headerbar-backdrop-color: #212131;
   --headerbar-shade-color: rgba(0, 0, 0, 0.12);
 
   /* Sidebar colors */
-  --sidebar-bg-color: #1a162b;
-  --sidebar-fg-color: #f5e0dc;
-  --sidebar-backdrop-color: #1a162b;
-  --sidebar-border-color: #65607b;
+  --sidebar-bg-color: #1c1c2a;
+  --sidebar-fg-color: #a8b2c8;
+  --sidebar-backdrop-color: #1c1c2a;
+  --sidebar-border-color: #676779;
   --sidebar-shade-color: rgba(0, 0, 0, 0.07);
 
   /* Secondary sidebar (additional variant) */
-  --secondary-sidebar-bg-color: #1f1b33;
-  --secondary-sidebar-fg-color: #f5e0dc;
-  --secondary-sidebar-backdrop-color: #1f1b33;
-  --secondary-sidebar-border-color: #65607b;
+  --secondary-sidebar-bg-color: #212131;
+  --secondary-sidebar-fg-color: #a8b2c8;
+  --secondary-sidebar-backdrop-color: #212131;
+  --secondary-sidebar-border-color: #676779;
   --secondary-sidebar-shade-color: rgba(0, 0, 0, 0.07);
 
   /* Card colors */
-  --card-bg-color: #131020;
-  --card-fg-color: #f5e0dc;
+  --card-bg-color: #151520;
+  --card-fg-color: #404b65;
   --card-shade-color: rgba(0, 0, 0, 0.07);
 
   /* Dialog colors */
-  --dialog-bg-color: #131020;
-  --dialog-fg-color: #f5e0dc;
+  --dialog-bg-color: #151520;
+  --dialog-fg-color: #404b65;
 
   /* Popover colors */
-  --popover-bg-color: #131020;
-  --popover-fg-color: #f5e0dc;
+  --popover-bg-color: #151520;
+  --popover-fg-color: #404b65;
   --popover-shade-color: rgba(0, 0, 0, 0.07);
 
   /* Thumbnail colors */
-  --thumbnail-bg-color: #131020;
-  --thumbnail-fg-color: #f5e0dc;
+  --thumbnail-bg-color: #151520;
+  --thumbnail-fg-color: #404b65;
 
   /* Misc background colors */
   --shade-color: rgba(0, 0, 0, 0.07);
   --scrollbar-outline-color: rgba(0, 0, 0, 0.5);
 
   /* Accent colors (Blue is default, customizable) */
-  --accent-bg-color: #ad5cd2;
+  --accent-bg-color: #a674d9;
   --accent-fg-color: #000000;
-  --accent-color: #ad5cd2;
+  --accent-color: #a674d9;
 
   /* Destructive/danger colors */
-  --destructive-bg-color: #d36850;
+  --destructive-bg-color: #d65c5c;
   --destructive-fg-color: #000000;
-  --destructive-color: #d36850;
+  --destructive-color: #d65c5c;
 
   /* Success colors */
-  --success-bg-color: #30cc4d;
+  --success-bg-color: #30ce30;
   --success-fg-color: #000000;
-  --success-color: #30cc4d;
+  --success-color: #30ce30;
 
   /* Warning colors */
   --warning-bg-color: #e5bf4c;
@@ -75,7 +75,7 @@
   --warning-color: #e5bf4c;
 
   /* Error colors */
-  --error-bg-color: #d36850;
+  --error-bg-color: #d65c5c;
   --error-fg-color: #000000;
-  --error-color: #d36850;
+  --error-color: #d65c5c;
 }

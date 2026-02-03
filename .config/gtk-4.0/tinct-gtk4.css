@@ -4,39 +4,39 @@
 
 :root {
   /* Background colors */
-  --theme-bg-color: #131020;
-  --theme-fg-color: #f5e0dc;
-  --theme-base-color: #131020;
-  --theme-text-color: #f5e0dc;
+  --theme-bg-color: #151520;
+  --theme-fg-color: #404b65;
+  --theme-base-color: #151520;
+  --theme-text-color: #404b65;
 
   /* Muted variants */
-  --theme-bg-muted-color: #373348;
-  --theme-fg-muted-color: #d3b6b1;
+  --theme-bg-muted-color: #3a3a47;
+  --theme-fg-muted-color: #272a31;
 
   /* Accent colors */
-  --theme-selected-bg-color: #ad5cd2;
+  --theme-selected-bg-color: #a674d9;
   --theme-selected-fg-color: white;
-  --theme-accent-color: #ad5cd2;
+  --theme-accent-color: #a674d9;
 
   /* Border colors */
-  --borders: #65607b;
-  --theme-border-color: #65607b;
+  --borders: #676779;
+  --theme-border-color: #676779;
 
   /* Status colors */
   --warning-color: #e5bf4c;
-  --error-color: #d36850;
-  --success-color: #30cc4d;
+  --error-color: #d65c5c;
+  --success-color: #30ce30;
   --info-color: #4c99e5;
 }
 
 /* Legacy @define-color for older GTK4 apps */
-@define-color theme_bg_color #131020;
-@define-color theme_fg_color #f5e0dc;
-@define-color theme_base_color #131020;
-@define-color theme_text_color #f5e0dc;
-@define-color theme_selected_bg_color #ad5cd2;
+@define-color theme_bg_color #151520;
+@define-color theme_fg_color #404b65;
+@define-color theme_base_color #151520;
+@define-color theme_text_color #404b65;
+@define-color theme_selected_bg_color #a674d9;
 @define-color theme_selected_fg_color white;
-@define-color borders #65607b;
+@define-color borders #676779;
 @define-color warning_color #e5bf4c;
-@define-color error_color #d36850;
-@define-color success_color #30cc4d;
+@define-color error_color #d65c5c;
+@define-color success_color #30ce30;
