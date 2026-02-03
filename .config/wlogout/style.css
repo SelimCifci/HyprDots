@@ -1,0 +1,97 @@
+* {
+    font-family: JetBrainsMono Nerd Font;
+    font-size: 24px;
+    text-shadow: none;
+    color: #cdd6f4;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+}
+
+window {
+    background-color: #11111b;
+    /* border-radius: 10px; */
+}
+
+button {
+    background-color: #11111b;
+    box-shadow: none;
+    border-color: #212134;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15%;
+    margin: 15px;
+    outline: none;
+}
+
+button:active,
+button:hover {
+    background-color: #cdd6f4;
+}
+
+button:hover * {
+    color: #212134;
+}
+
+button:focus {
+    background-color: #cdd6f4;
+}
+
+#lock {
+    background-image: image(url("./assets/lock.png"));
+}
+
+#lock:hover {
+    background-image: image(url("./assets/lock-hover.png"));
+    color: #11111b;
+}
+
+#logout {
+    background-image: image(url("./assets/logout.png"));
+}
+
+#logout:hover {
+    background-image: image(url("./assets/logout-hover.png"));
+    color: #11111b;
+}
+
+#suspend {
+    background-image: image(url("./assets/sleep.png"));
+}
+
+#suspend:hover {
+    background-image: image(url("./assets/sleep-hover.png"));
+    color: #11111b;
+}
+
+#shutdown {
+    background-image: image(url("./assets/power.png"));
+}
+
+#shutdown:hover {
+    background-image: image(url("./assets/power-hover.png")); 
+    color: #11111b;
+}
+
+#reboot {
+    background-image: image(url("./assets/restart.png"));
+}
+
+#reboot:hover {
+    background-image: image(url("./assets/restart-hover.png"));
+    color: #11111b;
+}
+
+#exit {
+    background-image: image(url("./assets/restart.png"));
+    background-color: #11111b;
+
+}
+
+#exit:hover {
+    background-image: image(url("./assets/restart-hover.png"));
+    color: #11111b;
+    background-color: #cdd6f4;
+}

@@ -1,0 +1,81 @@
+/* Tinct Libadwaita Theme - Generated */
+/* Modern GNOME/libadwaita apps */
+/* Theme type: dark */
+
+:root {
+  /* Window colors */
+  --window-bg-color: #131020;
+  --window-fg-color: #f5e0dc;
+
+  /* View colors */
+  --view-bg-color: #131020;
+  --view-fg-color: #f5e0dc;
+
+  /* Header bar colors */
+  --headerbar-bg-color: #1f1b33;
+  --headerbar-fg-color: #f5e0dc;
+  --headerbar-border-color: #65607b;
+  --headerbar-backdrop-color: #1f1b33;
+  --headerbar-shade-color: rgba(0, 0, 0, 0.12);
+
+  /* Sidebar colors */
+  --sidebar-bg-color: #1a162b;
+  --sidebar-fg-color: #f5e0dc;
+  --sidebar-backdrop-color: #1a162b;
+  --sidebar-border-color: #65607b;
+  --sidebar-shade-color: rgba(0, 0, 0, 0.07);
+
+  /* Secondary sidebar (additional variant) */
+  --secondary-sidebar-bg-color: #1f1b33;
+  --secondary-sidebar-fg-color: #f5e0dc;
+  --secondary-sidebar-backdrop-color: #1f1b33;
+  --secondary-sidebar-border-color: #65607b;
+  --secondary-sidebar-shade-color: rgba(0, 0, 0, 0.07);
+
+  /* Card colors */
+  --card-bg-color: #131020;
+  --card-fg-color: #f5e0dc;
+  --card-shade-color: rgba(0, 0, 0, 0.07);
+
+  /* Dialog colors */
+  --dialog-bg-color: #131020;
+  --dialog-fg-color: #f5e0dc;
+
+  /* Popover colors */
+  --popover-bg-color: #131020;
+  --popover-fg-color: #f5e0dc;
+  --popover-shade-color: rgba(0, 0, 0, 0.07);
+
+  /* Thumbnail colors */
+  --thumbnail-bg-color: #131020;
+  --thumbnail-fg-color: #f5e0dc;
+
+  /* Misc background colors */
+  --shade-color: rgba(0, 0, 0, 0.07);
+  --scrollbar-outline-color: rgba(0, 0, 0, 0.5);
+
+  /* Accent colors (Blue is default, customizable) */
+  --accent-bg-color: #ad5cd2;
+  --accent-fg-color: #000000;
+  --accent-color: #ad5cd2;
+
+  /* Destructive/danger colors */
+  --destructive-bg-color: #d36850;
+  --destructive-fg-color: #000000;
+  --destructive-color: #d36850;
+
+  /* Success colors */
+  --success-bg-color: #30cc4d;
+  --success-fg-color: #000000;
+  --success-color: #30cc4d;
+
+  /* Warning colors */
+  --warning-bg-color: #e5bf4c;
+  --warning-fg-color: #000000;
+  --warning-color: #e5bf4c;
+
+  /* Error colors */
+  --error-bg-color: #d36850;
+  --error-fg-color: #000000;
+  --error-color: #d36850;
+}
