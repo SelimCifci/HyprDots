@@ -10,6 +10,6 @@ sudo systemctl enable sddm.service
 cd ~/HyprDots
 yes | cp -r * ~/
 sudo rm -rf /usr/share/sddm/themes/corners/backgrounds && rm -f /usr/share/sddm/themes/corners/themes.conf
-sudo cp -r ~/sddm/* /usr/share/sddm/themes/corners/
+sudo cp -r ~/.config/sddm/* /usr/share/sddm/themes/corners/
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
