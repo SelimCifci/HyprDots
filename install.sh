@@ -7,6 +7,7 @@ yay -S hyprland dunst kitty tofi waybar wlogout sddm tinct-bin python-pywal16 sd
 
 sudo systemctl enable sddm.service
 
+cd ~/HyprDots
 cp -r * ~/
 sudo cp -r ~/.sddm/* /usr/share/sddm/themes/corners/
 
