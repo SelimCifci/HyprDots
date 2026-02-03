@@ -8,8 +8,8 @@ yay -S hyprland dunst kitty tofi waybar wlogout sddm tinct-bin python-pywal16 sd
 sudo systemctl enable sddm.service
 
 cd ~/HyprDots
-yes | cp -r * ~/
-sudo rm -rf /usr/share/sddm/themes/corners/backgrounds && rm -f /usr/share/sddm/themes/corners/themes.conf
-sudo cp -r ~/.config/sddm/* /usr/share/sddm/themes/corners/
+cp -rf .config ~/
+cp -rf .zshrc ~/
+sudo cp -rf ~/.config/sddm/* /usr/share/sddm/themes/corners/
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
