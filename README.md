@@ -2,7 +2,7 @@ Arch installation: archinstall minimal profile type
 
 Run `git clone https://github.com/SelimCifci/HyprDots.git`
 
-Run `cd HyprDots && ./install.sh` (choose Noto Fonts)
+Run `cd HyprDots && sudo ./install.sh` (choose Noto Fonts)
 
 Before logging in select `Hyprland (uwsm-managed)` in top left corner
 
