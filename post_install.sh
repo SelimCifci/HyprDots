@@ -1,5 +1,4 @@
-tinct generate -i image -p $img_path -o all --force
-XDG_MENU_PREFIX=arch- kbuildsycoca6
+tinct generate -i image -p ~/.config/hypr/backgrounds/sao.png -o all --force
 
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-autosuggestions

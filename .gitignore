@@ -49,9 +49,9 @@
 !.config/qt6ct/*
 !.config/qt6ct/colors/*
 
-!.config/sddm
-!.config/sddm/*
-!.config/sddm/backgrounds/*
+!.config/corners
+!.config/corners/*
+!.config/corners/backgrounds/*
 
 !.config/sddm.conf.d
 !.config/sddm.conf.d/corners.conf

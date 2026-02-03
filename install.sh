@@ -3,7 +3,7 @@ git clone https://aur.archlinux.org/yay.git ~/yay
 cd ~/yay
 makepkg -si
 
-yay -S hyprland dunst kitty tofi waybar wlogout sddm tinct-bin python-pywal16 sddm-theme-corners-git uwsm swww nwg-look qt5ct qt6ct dolphin ttf-jetbrains-mono-nerd hyprlock firefox pywalfox vim zsh adw-gtk-theme pavucontrol cliphist grimblast hyprpicker bibata-cursor-theme curl pamixer archlinux-xdg-menu
+yay -S hyprland dunst kitty tofi waybar wlogout sddm tinct-bin python-pywal16 sddm-theme-corners-git uwsm swww nwg-look qt5ct qt6ct dolphin ttf-jetbrains-mono-nerd hyprlock firefox pywalfox vim zsh adw-gtk-theme pavucontrol cliphist grimblast hyprpicker bibata-cursor-theme curl pamixer archlinux-xdg-menu featherpad xdg-desktop-portal-hyprland polkit-kde-agent qt5-wayland qt6-wayland brightnessctl
 
 sudo systemctl enable sddm.service
 
